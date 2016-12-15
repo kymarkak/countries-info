@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `continents` (
+  `code` CHAR(2) NOT NULL COMMENT 'Continent code.',
+  `name` VARCHAR(20) NOT NULL COMMENT 'Continent name.',
+  PRIMARY KEY (`code`),
+  UNIQUE INDEX `UQ_NAME` (`name` ASC)
+) ENGINE=INNODB DEFAULT CHARSET=UTF8;
