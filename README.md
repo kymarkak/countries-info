@@ -16,3 +16,5 @@ Describes the country codes and contains the following information:
  * a two-letter code (alpha-2) which is recommended as the general purpose code,
  * a three-letter code (alpha-3) which is more closely related to the country name and
  * a three digit numeric code (numeric-3) which can be useful if you need to avoid using Latin script.
+
+ [1]: http://www.iso.org/iso/home/standards/country_codes.htm
